@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Steamroller App - Track Every Warmachine Game</title>
+  <meta name="description" content="Steamroller App is the tabletop wargame session tracker for Warmachine players. Run the setup wizard, track VP turn-by-turn, and see your stats - all offline, no account required." />
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="assets/img/app-icon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#top">
+        <img src="assets/img/app-icon.png" alt="Steamroller App icon" width="36" height="36" class="rounded-3">
+        <span>Steamroller App</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#screenshots">Screenshots</a></li>
+          <li class="nav-item"><a class="nav-link" href="#stats">Stats</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item">
+            <a class="btn btn-warning fw-semibold ms-lg-2" href="#get-started">Get the App</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="top" class="hero">
+    <div class="container">
+      <div class="row align-items-center gy-5" id="get-started">
+        <div class="col-lg-6">
+          <span class="badge badge-eyebrow mb-3">Built for Warmachine</span>
+          <h1 class="hero-title mb-4">Every roll-off, every scenario, every crushing victory - tracked.</h1>
+          <p class="hero-lead mb-4">
+            Steamroller App is the pocket companion for Warmachine players who are done accidentally rolling their VP dice or tracking things on scraps of paper. 
+            Run a guided game setup, track turn-by-turn scoring live at the table, and build a real record of your wins, losses, and favourite armies.
+          </p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#" class="btn btn-warning btn-lg fw-semibold px-4">
+              <i class="bi bi-google-play me-2"></i>Coming soon to Google Play
+            </a>
+            <a href="#" class="btn btn-outline-light btn-lg fw-semibold px-4">
+              <i class="bi bi-apple me-2"></i>Coming soon to the App Store
+            </a>
+          </div>
+          <p class="text-muted small mt-3 mb-0">Free to use. No subscriptions needed.</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="hero-phone-wrap text-center">
+            <div class="phone-mockup mx-auto">
+              <div class="phone-notch"></div>
+              <img src="images/screenshots/summary.png" alt="Steamroller App game summary screen showing recently completed game" class="phone-screen">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-fade"></div>
+  </header>
+
+  <!-- Feature strip -->
+  <section class="py-4 border-bottom bg-body-tertiary">
+    <div class="container">
+      <div class="row text-center g-4 strip-row">
+        <div class="col-6 col-md-3">
+          <i class="bi bi-people strip-icon"></i>
+          <div class="small fw-semibold mt-2">Prime and Armies of Legend</div>
+        </div>
+        <div class="col-6 col-md-3">
+          <i class="bi bi-wifi-off strip-icon"></i>
+          <div class="small fw-semibold mt-2">Works Fully Offline</div>
+        </div>
+        <div class="col-6 col-md-3">
+          <i class="bi bi-map strip-icon"></i>
+          <div class="small fw-semibold mt-2">Steamroller and Casual Scenarios</div>
+        </div>
+        <div class="col-6 col-md-3">          
+          <i class="bi bi-check2-all strip-icon"></i>
+          <div class="small fw-semibold mt-2">Turn-by-turn game tracking</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="py-5 py-lg-6">
+    <div class="container">
+      <div class="text-center mx-auto mb-5" style="max-width: 640px;">
+        <span class="badge badge-eyebrow mb-3">Why players use it</span>
+        <h2 class="section-title">Everything you need at the table, nothing you don't</h2>
+        <p class="text-muted">
+          Steamroller App replaces the notepad, the VP dice, and the "wait, whose turn was it
+          to score?" arguments with one focused tool built around how Warmachine is actually played.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-card h-100">
+            <div class="feature-icon"><i class="bi bi-magic"></i></div>
+            <h3 class="h5 fw-bold mb-2">Guided Game Setup Wizard</h3>
+            <p class="text-muted mb-0">
+              Walk through game type, points level, scenario format, armies, leaders, and who attacks first
+              - with random scenario selection and a scenario preview so nobody has to dig out a rulebook.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-card h-100">
+            <div class="feature-icon"><i class="bi bi-clipboard2-check"></i></div>
+            <h3 class="h5 fw-bold mb-2">Pre-Game Deployment Checklist</h3>
+            <p class="text-muted mb-0">
+              Scenario terrain decisions, alternating deployment, advanced deployment - the app
+              walks attacker and defender through it step by step so nothing gets skipped.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-card h-100">
+            <div class="feature-icon"><i class="bi bi-graph-up-arrow"></i></div>
+            <h3 class="h5 fw-bold mb-2">Live Turn-by-Turn VP Tracking</h3>
+            <p class="text-muted mb-0">
+              A running scoreboard for both players plus a scenario-specific scoring table with per-rule
+              counters, so control points and objectives are logged the instant they happen.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-card h-100">
+            <div class="feature-icon"><i class="bi bi-flag"></i></div>
+            <h3 class="h5 fw-bold mb-2">Every Ending, Covered</h3>
+            <p class="text-muted mb-0">
+              Scenario win, assassination, or timeout - mark exactly how the game ended, and get an
+              automatic VP-gap warning the turn a game is coming to a close.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-card h-100">
+            <div class="feature-icon"><i class="bi bi-bar-chart-line"></i></div>
+            <h3 class="h5 fw-bold mb-2">Real Stats, Not Guesswork</h3>
+            <p class="text-muted mb-0">
+              Win/loss/draw record, attacker vs. defender performance, average VP scored and conceded,
+              your most-played army, and your most-faced opponent - broken down by scenario and game type.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-card h-100">
+            <div class="feature-icon"><i class="bi bi-clock-history"></i></div>
+            <h3 class="h5 fw-bold mb-2">Full Practice &amp; Tournament History</h3>
+            <p class="text-muted mb-0">
+              Every game you log is saved, split by Practice and Tournament, so
+              you can revisit any past matchup, scenario, or result in seconds.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshots -->
+  <section id="screenshots" class="py-5 py-lg-6 bg-body-tertiary">
+    <div class="container">
+      <div class="text-center mx-auto mb-5" style="max-width: 640px;">
+        <span class="badge badge-eyebrow mb-3">See it in action</span>
+        <h2 class="section-title">Built for the table, not a spreadsheet</h2>
+        <p class="text-muted">A clean, fast interface designed to be glanced at between activations - not fought with.</p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <div class="col-6 col-lg-3">
+          <div class="phone-mockup phone-mockup-sm mx-auto">
+            <div class="phone-notch"></div>
+            <img src="images/screenshots/home.png" alt="Home tab showing recent games" class="phone-screen">
+          </div>
+          <p class="text-center fw-semibold mt-3 mb-0">Home</p>
+          <p class="text-center text-muted small">Jump back into your latest games</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="phone-mockup phone-mockup-sm mx-auto">
+            <div class="phone-notch"></div>
+            <img src="images/screenshots/games.png" alt="Games tab showing practice and tournament history" class="phone-screen">
+          </div>
+          <p class="text-center fw-semibold mt-3 mb-0">Games</p>
+          <p class="text-center text-muted small">Full practice &amp; tournament history</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="phone-mockup phone-mockup-sm mx-auto">
+            <div class="phone-notch"></div>
+            <img src="images/screenshots/stats.png" alt="Stats tab showing win/loss record and scoring averages" class="phone-screen">
+          </div>
+          <p class="text-center fw-semibold mt-3 mb-0">Stats</p>
+          <p class="text-center text-muted small">Wins, losses, and scoring trends</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="phone-mockup phone-mockup-sm mx-auto">
+            <div class="phone-notch"></div>
+            <img src="images/screenshots/profile.png" alt="Profile tab showing preferences" class="phone-screen">
+          </div>
+          <p class="text-center fw-semibold mt-3 mb-0">Profile</p>
+          <p class="text-center text-muted small">Set your defaults once, reuse every game</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats / social proof style section -->
+  <section id="stats" class="py-5 py-lg-6">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <span class="badge badge-eyebrow mb-3">Know your game</span>
+          <h2 class="section-title mb-4">Your record, finally in one place</h2>
+          <p class="text-muted mb-4">
+            Stop trying to remember whether you actually win more as the attacker or the defender. Steamroller
+            App logs every game on so your stats page can answer questions like:
+          </p>
+          <ul class="list-unstyled feature-list">
+            <li><i class="bi bi-check-circle-fill me-2"></i>What's my win rate as attacker vs. defender?</li>
+            <li><i class="bi bi-check-circle-fill me-2"></i>Which army do I actually play as the most?</li>
+            <li><i class="bi bi-check-circle-fill me-2"></i>Who do I face - and beat - most often?</li>
+            <li><i class="bi bi-check-circle-fill me-2"></i>Do I usually win on scenario, assassination, or the clock?</li>
+            <li><i class="bi bi-check-circle-fill me-2"></i>How many VP do I score vs. concede on average?</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <div class="stat-card-grid">
+            <div class="stat-card">
+              <div class="stat-number">54</div>
+              <div class="stat-label">Armies across Prime &amp; Armies of Legend</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">13</div>
+              <div class="stat-label">Official Steamroller &amp; Casual Play scenarios</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">2</div>
+              <div class="stat-label">Game formats - Practice &amp; Tournament</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">0</div>
+              <div class="stat-label">Subscriptions or ads</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Privacy band -->
+  <section class="py-5 privacy-band">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-8">
+          <h2 class="h3 fw-bold mb-2 text-white">Fast. Fun. No arguments.</h2>
+          <p class="text-white-50 mb-0">
+            The Steamroller App makes it easy to record your game progress as you go.
+            No need for extra dice, counters, scraps of paper, or other markers that get lost or changed in the heat of battle.
+          </p>
+        </div>
+        <div class="col-lg-4 text-lg-end">
+          <a href="#get-started" class="btn btn-warning btn-lg fw-semibold px-4">Start Tracking Games</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-5 py-lg-6">
+    <div class="container">
+      <div class="text-center mx-auto mb-5" style="max-width: 640px;">
+        <span class="badge badge-eyebrow mb-3">Questions</span>
+        <h2 class="section-title">Frequently asked questions</h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                  Which game systems does Steamroller App support?
+                </button>
+              </h3>
+              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Steamroller App is built specifically for Warmachine, with support for armies from
+                  both the current Prime factions and legacy Armies of Legend factions, plus scenarios from
+                  both the Steamroller 2026 tournament pack and the Tales from the Frontline Casual Play set.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                  Do I need an internet connection to use it?
+                </button>
+              </h3>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  No. All game data is stored locally on your device, so you can set up games, track turns,
+                  and review your stats and history without any connection - perfect for game stores and
+                  venues with patchy Wi-Fi.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                  Do I need to create an account?
+                </button>
+              </h3>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  No sign-up, no login, no email required. Open the app and start your first game setup wizard
+                  straight away.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                  Can I track both casual practice games and official tournament rounds?
+                </button>
+              </h3>
+              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Yes. Every game is tagged as either Practice or Tournament, and your Games history and Stats
+                  are broken down by both, so your tournament record never gets muddied by casual games.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                  What happens if the game ends early on assassination or the clock?
+                </button>
+              </h3>
+              <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  The turn tracker lets you mark exactly how a game ended - scenario win, assassination, or a
+                  player timing out - and automatically warns you when a VP gap has already decided the game,
+                  so nobody keeps playing a round that's already over.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="py-5 py-lg-6 final-cta text-center">
+    <div class="container">
+      <h2 class="section-title mb-3">Ready to actually remember how last week's game went?</h2>
+      <p class="text-muted mb-4 mx-auto" style="max-width: 560px;">
+        Free to download. No account needed. No ads. Just a faster way to run and remember every Warmachine game you play.
+      </p>
+      <div class="d-flex flex-wrap gap-3 justify-content-center">
+        <a href="#" class="btn btn-dark btn-lg fw-semibold px-4">
+          <i class="bi bi-google-play me-2"></i>Coming soon to Google Play
+        </a>
+        <a href="#" class="btn btn-outline-dark btn-lg fw-semibold px-4">
+          <i class="bi bi-apple me-2"></i>Coming soon to the App Store
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 footer">
+    <div class="container">
+      <div class="row gy-4 align-items-center">
+        <div class="col-md-6 d-flex align-items-center gap-2">
+          <img src="assets/img/app-icon.png" alt="Steamroller App icon" width="32" height="32" class="rounded-3">
+          <span class="fw-semibold">Steamroller App</span>
+        </div>
+        <div class="col-md-6 text-md-end small">
+          &copy; <span id="year"></span> Steamroller App. Not affiliated with or endorsed by Steamforged Games.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
