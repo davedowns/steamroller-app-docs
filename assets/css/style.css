@@ -57,13 +57,19 @@ h1, h2, h3, .navbar-brand {
 
 .badge-eyebrow {
   background-color: rgba(242, 183, 5, 0.16);
-  color: var(--sr-accent);
+  color: #8a5b00;
   font-weight: 600;
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   padding: 0.45rem 0.9rem;
   border-radius: 50rem;
+}
+
+/* On the dark hero background, the light badge fill needs a lighter,
+   higher-contrast text color instead of the dark one used elsewhere. */
+.hero .badge-eyebrow {
+  color: var(--sr-accent);
 }
 
 .hero-title {
