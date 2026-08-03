@@ -6,6 +6,7 @@ A single-page, Bootstrap 5 marketing/landing site for the Steamroller App
 ## Structure
 
 - `index.html` — the whole site (hero, features, screenshots, stats, FAQ, footer).
+- `privacy/index.html` — privacy policy page (served at `/privacy/`), linked from the footer.
 - `assets/css/style.css` — custom styling layered on top of Bootstrap 5 (via CDN).
 - `assets/img/app-icon.png` — app icon, used as the nav/footer logo and favicon.
 - `images/screenshots/` — phone screenshots shown in the hero and "Screenshots"
