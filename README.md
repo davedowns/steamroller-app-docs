@@ -1,6 +1,6 @@
-# Steamroller App — Marketing Site
+# Warmachine: Tactical Companion — Marketing Site
 
-A single-page, Bootstrap 5 marketing/landing site for the Steamroller App
+A single-page, Bootstrap 5 marketing/landing site for Warmachine: Tactical Companion
 (tabletop wargame session tracker for Warmachine &amp; Hordes).
 
 ## Structure
