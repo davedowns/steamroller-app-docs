@@ -1,6 +1,6 @@
-# Warmachine: Tactical Companion — Marketing Site
+# Steamroller: Tactical Companion — Marketing Site
 
-A single-page, Bootstrap 5 marketing/landing site for Warmachine: Tactical Companion
+A single-page, Bootstrap 5 marketing/landing site for Steamroller: Tactical Companion
 (tabletop wargame session tracker for Warmachine &amp; Hordes).
 
 ## Structure
