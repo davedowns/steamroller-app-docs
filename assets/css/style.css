@@ -98,8 +98,8 @@ h1, h2, h3, .navbar-brand {
   width: 260px;
   aspect-ratio: 390 / 844;
   background: #0a0f1c;
-  border-radius: 2.6rem;
-  padding: 12px;
+  border-radius: 1.8rem;
+  padding: 10px;
   box-shadow:
     0 25px 50px -12px rgba(0, 0, 0, 0.5),
     0 0 0 2px rgba(255, 255, 255, 0.06);
@@ -111,18 +111,21 @@ h1, h2, h3, .navbar-brand {
 
 .phone-notch {
   position: absolute;
-  top: 12px;
+  top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  width: 42%;
-  height: 22px;
-  background: #0a0f1c;
-  border-radius: 0 0 1rem 1rem;
+  width: 12px;
+  height: 12px;
+  background: #000;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.08);
   z-index: 2;
 }
 
 .phone-mockup-sm .phone-notch {
-  height: 16px;
+  top: 18px;
+  width: 9px;
+  height: 9px;
 }
 
 .phone-screen {
@@ -130,7 +133,7 @@ h1, h2, h3, .navbar-brand {
   height: 100%;
   object-fit: cover;
   object-position: top center;
-  border-radius: 1.9rem;
+  border-radius: 1.2rem;
   background-color: #fff;
   display: block;
 }
