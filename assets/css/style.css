@@ -251,6 +251,41 @@ h1, h2, h3, .navbar-brand {
   color: #fff;
 }
 
+/* Cookie banner */
+#cookie-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 2000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  background: var(--sr-navy-dark);
+  color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+  font-size: 0.9rem;
+}
+
+#cookie-banner p {
+  flex: 1 1 300px;
+}
+
+#cookie-banner a {
+  color: #fff;
+}
+
+.cookie-banner-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
 /* Accordion tweaks */
 .accordion-button:not(.collapsed) {
   background-color: rgba(63, 169, 245, 0.08);
